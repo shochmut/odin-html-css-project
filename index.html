@@ -9,22 +9,80 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <h1 class='sidebar-title'>Dashboard</h1>
-            <h2 class="sidebar-navs">Home</h2>
-            <h2 class="sidebar-navs">Profile</h2>
-            <h2 class="sidebar-navs">Messages</h2>
-            <h2 class="sidebar-navs">History</h2>
-            <h2 class="sidebar-navs">Tasks</h2>
-            <h2 class="sidebar-navs">Communities</h2>
-            <h2 class="sidebar-navs">Settings</h2>
-            <h2 class="sidebar-navs">Support</h2>
-            <h2 class="sidebar-navs">Privacy</h2>
+            <h1 class='sidebar-title'><img src="assets/view-dashboard.svg" class="sidebar-icon">Dashboard</h1>
+            <h2 class="sidebar-navs"><img src="assets/home.svg" class="sidebar-icon">Home</h2>
+            <h2 class="sidebar-navs"><img src="assets/account-circle.svg" class="sidebar-icon">Profile</h2>
+            <h2 class="sidebar-navs"><img src="assets/message.svg" class="sidebar-icon">Messages</h2>
+            <h2 class="sidebar-navs"><img src="assets/clock-time-five.svg" class="sidebar-icon">History</h2>
+            <h2 class="sidebar-navs"><img src="assets/format-list-checks.svg" class="sidebar-icon">Tasks</h2>
+            <h2 class="sidebar-navs"><img src="assets/account-group.svg" class="sidebar-icon">Communities</h2>
+            <h2 class="sidebar-navs"><img src="assets/cog.svg" class="sidebar-icon">Settings</h2>
+            <h2 class="sidebar-navs"><img src="assets/help.svg" class="sidebar-icon">Support</h2>
+            <h2 class="sidebar-navs"><img src="assets/shield.svg" class="sidebar-icon">Privacy</h2>
         </div>
         <div class="header">
-            <p>header</p>
+            <div class="header-first-row">
+                <img class="header-icon search" src="assets/magnify.svg">
+                <input class="search-bar" type="text" id="search-bar" name="search-bar"></input>
+                <img class="header-icon" src="assets/bell-ring.svg">
+                <img class="header-icon profile" src="assets/face-man-profile.svg">
+                <h2 class="user-name">Skyler Hochmuth</h2>
+            </div>
+            <div class="header-second-row">
+                <img class="header-icon profile" src="assets/face-man-profile.svg">
+                <div class="hi-there">
+                    <p class="howdy">Howdy,</p>
+                    <h2 class="user-name">Skyler Hochmuth (@skyler)</h2>
+                </div>
+                <input class="header-button" type="button" id="new" name="new" value="New">
+                <input class="header-button" type="button" id="upload" name="upload" value="Upload">
+                <input class="header-button" type="button" id="share" name="share" value="Share">
+            </div>
         </div>
-        <div class="main">
-            <p>main</p>
+        <div class="main-content">
+            <div class="projects-container">
+                <h2>Your Projects</h2>
+                <div></div>
+                <div class="project">
+                    <h3 class="project-title">Project 1</h3>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 2</h3>
+
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 3</h3>
+
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 4</h3>
+
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 5</h3>
+
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 6</h3>
+
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="announcements-container">
+                    <h2>Announcements</h2>
+                    <div class="announcements">
+                        <h3>Israel in Turmoil</h3>
+                        <p>blah blah blah</p>
+                        <h3></h3>
+                    </div>
+                </div>
+                <div class="trending-container">
+                    <h2>Trending</h2>
+                    <div class="trending">
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
